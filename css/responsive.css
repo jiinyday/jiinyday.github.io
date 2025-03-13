@@ -1,0 +1,908 @@
+@charset "UTF-8";
+
+/* height 반응형 */
+/* break point : 900 */
+@media (max-height: 900px) {
+    .page.about-resume .bg-box {
+        height: 54.5rem;
+    }
+    .page.portfolio-web .pf-box {
+        height: 54.5rem;
+    }
+    .page.portfolio-web .pf-box .pagination {
+        bottom: -6%;
+    }
+    .page.portfolio-web .pf-box .pagination span {
+        background-color: #fff;
+    }
+}
+
+/* width 반응형 */
+/* break point : 1680 */
+@media (max-width: 1680px) {
+    .page.home .info-box .t {
+        font-size: 10rem;
+    }
+    .page.home .info-box .tit-box2 p {
+        font-size: 20rem;
+    }
+
+    .page.about-resume .bg-box .txt-folder {
+        .txt-box {
+            font-size: 8rem;
+            .txt2 {
+                font-size: 3rem;
+            }
+        }
+        .folder-box {
+            .folder {
+                width: 30rem;
+                height: 27rem;
+            }
+        }
+    }
+    .page.about-resume .bg-box .folder-box .folder::before {
+        font-size: 2.4rem;
+    }
+    .bg-box .folder-box .dt-box {
+        bottom: -3.7rem;
+    }
+}
+
+/* break point : 1510 */
+@media (max-width: 1510px) {
+    .logo a {
+        width: 6rem;
+        height: 6rem;
+    }
+    .menu li a {
+        font-size: 2.8rem;
+    }
+    .scroll-box .scroll {
+        width: 3.5rem;
+        height: 5.7rem;
+    }
+    .scroll-box .scroll::before {
+        width: 0.7rem;
+        height: 0.7em;
+    }
+    .scroll-box p {
+        font-size: 2.3rem;
+    }
+
+    .page.about-resume .bg-box .txt-folder {
+        .txt-box {
+            font-size: 6rem;
+            .txt2 {
+                font-size: 2.5rem;
+            }
+        }
+        .folder-box {
+            .folder {
+                width: 27rem;
+                height: 24rem;
+            }
+        }
+    }
+    .page.about-resume .bg-box .folder-box .folder::before {
+        font-size: 2.2rem;
+    }
+    .bg-box .folder-box .dt-box {
+        bottom: -4rem;
+        width: 85rem;
+        height: 45rem;
+        & button {
+            width: 8rem;
+            line-height: 2.5rem;
+            font-size: 1.8rem;
+        }
+    }
+    /* 폴더 1 */
+    .folder-box .dt-box.box1 .txt-box {
+        & img {
+            width: 20rem;
+            height: 24rem;
+        }
+        .p-box {
+            font-size: 2.5rem;
+        }
+    }
+    /* 폴더 2 */
+    .folder-box .dt-box.box2 .txt-box {
+        .career-box {
+            .tit {
+                font-size: 3rem;
+            }
+            .sub-tit {
+                font-size: 1.8rem;
+            }
+        }
+    }
+    /* 폴더 3 */
+    .folder-box .dt-box.box3 .txt-box {
+        .tit {
+            font-size: 7rem;
+        }
+        .skill {
+            gap: 2rem;
+            & li img {
+                width: 9rem;
+                height: 9rem;
+            }
+        }
+    }
+
+    .page.portfolio .pf-box {
+        height: 65rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-web {
+        height: 50rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .tit {
+        font-size: 3rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .sub-tit {
+        font-size: 2.3rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .sub-dt {
+        font-size: 2rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .info {
+        font-size: 1.6rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .link-box a {
+        width: 22rem;
+        height: 4.5rem;
+        font-size: 2.5rem;
+    }
+    .page.portfolio .pf-box .pagination span {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    .page.contact .wrap .txt-box .txt1 {
+        font-size: 12rem;
+    }
+    .page.contact .wrap .txt-box .txt2 {
+        font-size: 3.5rem;
+    }
+    .page.contact .wrap .txt-box .txt3 {
+        font-size: 1.6rem;
+    }
+    .page.contact .wrap img {
+        width: 35rem;
+        height: 35rem;
+    }
+}
+
+/* break point : 1385 */
+@media (max-width: 1385px) {
+    .page.home .info-box .t {
+        font-size: 8rem;
+    }
+    .page.home .info-box .tit-box2 p {
+        font-size: 17rem;
+    }
+
+    .page.about-resume .bg-box .txt-folder {
+        .txt-box {
+            font-size: 5rem;
+            .txt2 {
+                font-size: 2.5rem;
+            }
+        }
+        .folder-box {
+            .folder {
+                width: 22rem;
+                height: 18rem;
+            }
+        }
+    }
+    .page.about-resume .bg-box .folder-box .folder::before {
+        font-size: 2rem;
+    }
+    .bg-box .folder-box .dt-box {
+        bottom: -5rem;
+        width: 75rem;
+        height: 40rem;
+        & button {
+            width: 8rem;
+            line-height: 2.5rem;
+            font-size: 1.8rem;
+        }
+    }
+    .folder-box .dt-box.box2 .txt-box {
+        .career-box {
+            .tit {
+                font-size: 2.5rem;
+            }
+            .sub-tit {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .page.portfolio-web .pf-box {
+        height: 60rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-web {
+        height: 45rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .tit {
+        font-size: 2.6rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .sub-tit {
+        font-size: 1.9rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .sub-dt {
+        font-size: 1.6rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .info {
+        font-size: 1.4rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .link-box a {
+        width: 20rem;
+        height: 4rem;
+        font-size: 2rem;
+    }
+    .page.portfolio .pf-box .pagination {
+        bottom: 4%;
+    }
+
+    .page.contact .wrap .txt-box .txt1 {
+        font-size: 12rem;
+    }
+    .page.contact .wrap .txt-box .txt2 {
+        font-size: 3.5rem;
+    }
+    .page.contact .wrap .txt-box .txt3 {
+        font-size: 1.6rem;
+    }
+    .page.contact .wrap img {
+        width: 35rem;
+        height: 35rem;
+    }
+}
+
+/* break point : 1250 */
+@media (max-width: 1250px) {
+    .page.home .info-box .t {
+        font-size: 7rem;
+    }
+    .page.home .info-box .tit-box2 p {
+        font-size: 15rem;
+    }
+    .bg-box .folder-box .dt-box {
+        width: 65rem;
+        height: 30rem;
+        bottom: 0;
+        & button {
+            width: 7rem;
+            line-height: 2rem;
+            font-size: 1.5rem;
+            top: 2.5rem;
+            left: 2.5rem;
+        }
+    }
+    .folder-box .dt-box.box1 .txt-box {
+        gap: 4rem;
+        & img {
+            width: 16.5rem;
+            height: 20rem;
+        }
+        .p-box {
+            font-size: 2.2rem;
+            gap: 7rem;
+        }
+    }
+    .folder-box .dt-box.box2 .txt-box {
+        flex-direction: row;
+        align-items: flex-start;
+        margin-top: 7rem;
+        .career-box {
+            width: 45%;
+            padding: 0;
+            .tit {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+    .folder-box .dt-box.box3 .txt-box {
+        .tit {
+            font-size: 6rem;
+        }
+        .skill {
+            & li img {
+                width: 7rem;
+                height: 7rem;
+            }
+        }
+    }
+
+    .page.contact .wrap .txt-box .txt1 {
+        font-size: 8rem;
+    }
+    .page.contact .wrap .txt-box .txt2 {
+        font-size: 2.7rem;
+    }
+    .page.contact .wrap .txt-box .txt3 {
+        font-size: 1.3rem;
+    }
+    .page.contact .wrap img {
+        width: 30rem;
+        height: 30rem;
+    }
+}
+
+/* break point : 1120 */
+@media (max-width: 1120px) {
+    .logo a {
+        width: 5rem;
+        height: 5rem;
+    }
+    .menu li a {
+        font-size: 2.5rem;
+    }
+    .page.home .info-box .t {
+        font-size: 6rem;
+    }
+    .page.home .info-box .tit-box2 p {
+        font-size: 13rem;
+    }
+    .scroll-box .scroll {
+        width: 2.8rem;
+        height: 4.7rem;
+    }
+    .scroll-box .scroll::before {
+        width: 0.6rem;
+        height: 0.6rem;
+    }
+    .scroll-box p {
+        font-size: 2rem;
+        bottom: -30%;
+    }
+
+    .page.about-resume .bg-box .txt-folder {
+        .txt-box {
+            font-size: 4rem;
+            .txt2 {
+                font-size: 2rem;
+            }
+        }
+        .folder-box {
+            .folder {
+                width: 18rem;
+                height: 14rem;
+            }
+        }
+    }
+    .page.about-resume .bg-box .folder-box .folder::before {
+        font-size: 2rem;
+    }
+    .bg-box .folder-box .dt-box {
+        bottom: -2.9rem;
+    }
+
+    .pf-box .swiper .swiper-wrapper .swiper-slide {
+        flex-wrap: wrap;
+        flex-flow: column-reverse;
+        justify-content: center;
+        gap: 3rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail {
+        width: 95%;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        margin-top: -5rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-web {
+        width: 90%;
+        height: 50%;
+        margin: 0 auto;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .tit {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .sub-tit {
+        width: calc(15% - 1.5rem);
+        margin-bottom: 0;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .sub-dt {
+        width: calc(35% - 1.5rem);
+        margin-bottom: 0;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .info {
+        display: none;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .link-box {
+        position: absolute;
+        bottom: -2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        gap: 2rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .link-box.box1 a {
+        width: 15rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .link-box a {
+        width: 15rem;
+        height: 3rem;
+        font-size: 2.2rem;
+        margin-top: -7.5rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-web .img-box.box1 {
+        transition: background-position 4s linear;
+    }
+    .swiper-wrapper .swiper-slide .pf-web .img-box.box2 {
+        transition: background-position 3s linear;
+    }
+    .swiper-wrapper .swiper-slide .pf-web .img-box.box3 {
+        transition: background-position 3s linear;
+    }
+    .swiper-wrapper .swiper-slide .pf-web .img-box.box4 {
+        transition: background-position 5s linear;
+    }
+
+    .page.portfolio-web .pf-box .pagination {
+        bottom: -6%;
+    }
+    .page.portfolio-web .pf-box .pagination span {
+        width: 1rem;
+        height: 1rem;
+        background-color: #fff;
+    }
+}
+
+/* break point : 990 */
+@media (max-width: 990px) {
+    .menu li a {
+        display: none;
+    }
+    .page.home .info-box .tit-box {
+        gap: 2rem;
+    }
+    .page.home .info-box .t {
+        font-size: 5rem;
+    }
+    .page.home .info-box .tit-box2 p {
+        font-size: 10rem;
+        line-height: 20rem;
+    }
+
+    .page.about-resume .bg-box {
+        height: 55%;
+        border-radius: 1.2rem;
+        background-color: #fff;
+        background-image: none;
+    }
+    .page.about-resume .bg-box .txt-folder {
+        .txt-box {
+            font-size: 5.5rem;
+            margin-bottom: 4rem;
+            .txt2 {
+                font-size: 2.5rem;
+                margin-top: 4rem;
+            }
+        }
+        .folder-box {
+            gap: 4rem;
+            margin-bottom: 5rem;
+            .folder {
+                width: 20rem;
+                height: 17rem;
+            }
+        }
+    }
+    .page.about-resume .bg-box .folder-box .folder::before {
+        font-size: 2.5rem;
+    }
+
+    .pf-box .swiper .swiper-wrapper .swiper-slide {
+        gap: 0;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail {
+        gap: 0;
+        margin-top: -6rem;
+        margin-bottom: 1rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .tit {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .sub-tit {
+        width: 100%;
+        line-height: 1.5;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .sub-dt {
+        width: 100%;
+        font-size: 1.6rem;
+        margin-bottom: 1.5rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-web {
+        height: 37%;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .link-box a {
+        margin-top: -8rem;
+    }
+
+    .page.contact .wrap .txt-box .txt1 {
+        font-size: 6rem;
+    }
+    .page.contact .wrap .txt-box .txt2 {
+        font-size: 2.5rem;
+    }
+    .page.contact .wrap .txt-box .txt3 {
+        font-size: 1.3rem;
+    }
+    .page.contact .wrap img {
+        width: 25rem;
+        height: 25rem;
+    }
+}
+
+/* break point : 860 */
+@media (max-width: 860px) {
+    .page.about-resume .bg-box .txt-folder {
+        .txt-box {
+            font-size: 4.2rem;
+            margin-bottom: 4rem;
+            .txt2 {
+                font-size: 2rem;
+                margin-top: 4rem;
+            }
+        }
+        .folder-box {
+            gap: 2rem;
+            margin-bottom: 5rem;
+            .folder {
+                width: 15rem;
+                height: 12rem;
+            }
+        }
+    }
+    .page.about-resume .bg-box .folder-box .folder::before {
+        font-size: 2rem;
+    }
+    .bg-box .folder-box .dt-box {
+        bottom: -6.5rem;
+    }
+}
+
+/* break point : 795 */
+@media (max-width: 795px) {
+    .menu-box {
+        padding: 3.2rem 5rem;
+    }
+    .logo a {
+        width: 4rem;
+        height: 4rem;
+    }
+    .page.home .info-box .tit-box {
+        gap: 1rem;
+    }
+    .page.home .info-box .t {
+        font-size: 3rem;
+    }
+    .page.home .info-box .tit-box2 p {
+        font-size: 5rem;
+        line-height: 10rem;
+    }
+    .scroll-box .scroll {
+        width: 1.8rem;
+        height: 3.4rem;
+        border: 0.1rem solid#fff;
+    }
+    .scroll-box .scroll::before {
+        width: 0.4rem;
+        height: 0.4rem;
+    }
+    .scroll-box p {
+        font-size: 1.4rem;
+        bottom: -10%;
+    }
+
+    .bg-box .folder-box .dt-box {
+        width: 48rem;
+        height: 27rem;
+    }
+    .folder-box .dt-box.box1 .txt-box {
+        gap: 2rem;
+        & img {
+            width: 14rem;
+            height: 17rem;
+        }
+        .p-box {
+            font-size: 1.8rem;
+            gap: 3rem;
+        }
+    }
+    .folder-box .dt-box.box2 .txt-box {
+        .career-box {
+            .tit {
+                font-size: 2rem;
+                margin-bottom: 1rem;
+            }
+            .sub-tit {
+                font-size: 1.3rem;
+            }
+            .day {
+                font-size: 1.2rem;
+            }
+        }
+    }
+    .folder-box .dt-box.box3 .txt-box {
+        .tit {
+            font-size: 5rem;
+        }
+        .skill {
+            gap: 1rem;
+            & li img {
+                width: 6rem;
+                height: 6rem;
+            }
+        }
+    }
+
+    .swiper-wrapper .swiper-slide .pf-detail .tit {
+        font-size: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .sub-tit {
+        line-height: 1.5;
+        font-size: 1.5rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .sub-dt {
+        width: 100%;
+        font-size: 1.5rem;
+        margin-bottom: 2.5rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-web {
+        height: 35%;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .link-box {
+        gap: 1.5rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .link-box a {
+        width: 10rem;
+        height: 2.5rem;
+        font-size: 1.5rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .link-box.box1 a {
+        width: 10rem;
+    }
+
+    .page.contact .wrap .txt-box .txt1 {
+        font-size: 5rem;
+    }
+    .page.contact .wrap .txt-box .txt2 {
+        font-size: 2rem;
+    }
+    .page.contact .wrap .txt-box .txt3 {
+        font-size: 1.2rem;
+    }
+    .page.contact .wrap img {
+        width: 20rem;
+        height: 20rem;
+    }
+    .page.contact .copy-box {
+        line-height: 3rem;
+        font-size: 1.4rem;
+    }
+}
+
+/* break point : 630 */
+@media (max-width: 630px) {
+    .page.about-resume .bg-box {
+        height: 45%;
+    }
+    .page.about-resume .bg-box .txt-folder {
+        .txt-box {
+            font-size: 3.5rem;
+            .txt2 {
+                font-size: 1.7rem;
+                margin-top: 4rem;
+            }
+        }
+        .folder-box {
+            gap: 2rem;
+            .folder {
+                width: 11.5rem;
+                height: 11rem;
+            }
+        }
+    }
+    .bg-box .folder-box .dt-box {
+        width: 38.5rem;
+        height: 19rem;
+        bottom: -1.5rem;
+        & button {
+            top: 1.8rem;
+            left: 1.8rem;
+            width: 5.5rem;
+            line-height: 1.6rem;
+            font-size: 1.2rem;
+        }
+    }
+    .folder-box .dt-box.box1 .txt-box {
+        gap: 2.5rem;
+        & img {
+            margin-top: 3rem;
+            width: 9.5rem;
+            height: 11.5rem;
+        }
+        .p-box {
+            margin-top: 3rem;
+            font-size: 1.4rem;
+            gap: 3rem;
+        }
+    }
+    .folder-box .dt-box.box2 .txt-box {
+        .career-box {
+            margin-top: -2.5rem;
+            .tit {
+                font-size: 1.6rem;
+            }
+            .sub-tit {
+                font-size: 1.05rem;
+            }
+            .day {
+                font-size: 0.8rem;
+            }
+        }
+    }
+    .folder-box .dt-box.box3 .txt-box {
+        .tit {
+            font-size: 3.8rem;
+            margin-bottom: 1.5rem;
+        }
+        .skill {
+            gap: 0.5rem;
+            & li img {
+                width: 5rem;
+                height: 5rem;
+            }
+        }
+    }
+    .page.about-resume .bg-box .folder-box .folder::before {
+        font-size: 1.7rem;
+    }
+
+    .page.contact {
+        .wrap {
+            gap: 2rem;
+            flex-wrap: wrap;
+            .txt-box {
+                text-align: center;
+                .txt2 {
+                    margin-bottom: 1rem;
+                }
+                .txt3 {
+                    font-size: 1.4rem;
+                    margin-bottom: 3rem;
+                }
+            }
+            & img {
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+}
+
+/* break point : 500 */
+@media (max-width: 500px) {
+    .page.home .info-box .t {
+        font-size: 2.2rem;
+    }
+    .page.home .info-box .tit-box2 p {
+        font-size: 3.2rem;
+    }
+
+    .page.about-resume .bg-box .txt-folder {
+        .txt-box {
+            font-size: 2.8rem;
+            .txt2 {
+                font-size: 1.5rem;
+            }
+        }
+    }
+    .folder-box {
+        gap: 1rem !important;
+        .folder {
+            width: 9rem !important;
+            height: 7rem !important;
+        }
+    }
+    .page.about-resume .bg-box .folder-box .folder::before {
+        font-size: 1.5rem;
+        bottom: -3rem;
+    }
+
+    .swiper-wrapper .swiper-slide .pf-detail .tit {
+        font-size: 2.2rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .sub-tit {
+        font-size: 1.4rem;
+    }
+    .swiper-wrapper .swiper-slide .pf-detail .sub-dt {
+        font-size: 1.2rem;
+    }
+
+    .page.contact .wrap .txt-box .txt1 {
+        font-size: 4rem;
+    }
+}
+
+/* portfolio-design */
+/* break point : 1255 */
+@media (max-width: 1255px) {
+    .page.portfolio-design .popup {
+        padding: 0;
+        gap: 3rem;
+    }
+    .page.portfolio-design .popup li {
+        width: 32rem;
+        height: 32rem;
+    }
+    .page.portfolio-design h1 {
+        font-size: 4rem;
+    }
+    .page.portfolio-design .banner .banner1 {
+        margin-top: -5rem;
+    }
+    .page.portfolio-design .banner .banner2 {
+        margin-top: -7rem;
+    }
+}
+/* break point : 1133 */
+@media (max-width: 1133px) {
+    .page.portfolio-design .banner .banner2 {
+        margin-top: -10rem;
+    }
+}
+/* break point : 1020 */
+@media (max-width: 1020px) {
+    .page.portfolio-design .banner .banner1 {
+        margin-top: -7.5rem;
+    }
+    .page.portfolio-design .banner .banner2 {
+        margin-top: -11rem;
+    }
+}
+/* break point : 900 */
+@media (max-width: 900px) {
+    .page.portfolio-design .banner .banner1 {
+        margin-top: -8.5rem;
+    }
+    .page.portfolio-design .banner .banner2 {
+        margin-top: -14rem;
+    }
+}
+/* break point : 795 */
+@media (max-width: 795px) {
+    .page.portfolio-design h1 {
+        font-size: 3rem;
+    }
+}
+/* break point : 670 */
+@media (max-width: 670px) {
+    .page.portfolio-design ul {
+        padding: 0;
+        gap: 2rem;
+    }
+    .page.portfolio-design .banner .banner1 {
+        margin-top: -7rem;
+    }
+    .page.portfolio-design .banner .banner3 {
+        margin-top: -6.9rem;
+    }
+}
+/* break point : 500 */
+@media (max-width: 500px) {
+    .page.portfolio-design .banner {
+        gap: 0;
+    }
+}
