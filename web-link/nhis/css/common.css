@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/* 변수 설정 */
+:root {
+    --black: #000;
+    --white: #fff;
+    --color-blue: #2a6deb;
+    --color-blue2: #44465a;
+    --color-blue-border: #cdd7e4;
+    --border-color: #d8d8d8;
+    --border-color1: #c6c6c6;
+    --border-color2: #e4e4e4;
+    --txt-color1: #1d1d1d;
+    --txt-color2: #555;
+    --txt-color3: #e00;
+    --txt-color4: #003675;
+    --bg-nuri-color: #f4f5fb;
+    --bg-search-box: #dedde8;
+    --bg-footer-color: #f0f0f0;
+}
+
+/* 여백초기화 */
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+header,
+main,
+footer,
+nav,
+section,
+button,
+input,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 목록스타일제거 */
+li {
+    list-style-type: none;
+}
+/* 링크스타일 */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+html {
+    font-family: p400;
+    line-height: 1;
+    font-size: 10px;
+    color: #000;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    color: inherit;
+    font-weight: 400;
+}
+
+button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+input {
+    border: none;
+    background: transparent;
+    font-size: inherit;
+}
+
+.hide {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: polygon(0 0, 0 0, 0 0);
+}
