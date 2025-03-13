@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* KR */
+@font-face {
+    font-family: title;
+    src: url(../font/Binggrae-Bold.woff) format('woff');
+    font-weight: 700;
+}
+@font-face {
+    font-family: p100;
+    src: url(../font/Pretendard-Thin.woff2) format('woff'), url(../font/Pretendard-Thin.woff) format('woff2');
+    font-weight: 100;
+}
+@font-face {
+    font-family: p400;
+    src: url(../font/Pretendard-Regular.woff2) format('woff2'), url(../font/Pretendard-Regular.woff);
+    font-weight: 400;
+}
+@font-face {
+    font-family: p600;
+    src: url(../font/Pretendard-SemiBold.woff2) format('woff2'), url(../font/Pretendard-SemiBold.woff) format('woff');
+    font-weight: 600;
+}
+@font-face {
+    font-family: p700;
+    src: url(../font/Pretendard-Bold.woff2) format('woff2'), url(../font/Pretendard-Bold.woff) format('woff');
+    font-weight: 700;
+}

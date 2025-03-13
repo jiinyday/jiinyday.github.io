@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/* 여백초기화 */
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+header,
+main,
+footer,
+nav,
+section,
+button,
+input,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+body {
+    font-family: 'p400', sans-serif;
+    color: #1f1f1f;
+    line-height: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input {
+    font-size: inherit;
+    color: inherit;
+}
+button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+input {
+    border: none;
+    background: transparent;
+    font-size: inherit;
+}
+
+/* 목록스타일 제거 */
+li {
+    list-style-type: none;
+}
+/* 링크요소 */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 화면숨김 요소 */
+.hide {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: polygon(0 0, 0 0, 0 0);
+}
+
+/* 이미지요소 하단 디센더 제거 */
+img {
+    vertical-align: top;
+}
